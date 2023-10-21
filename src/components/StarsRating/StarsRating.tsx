@@ -20,6 +20,7 @@ const StarsRating: React.FC<Rating> = (props) => {
     return (  
         <div className={styles.rating}>
         {[...Array(10)].map((star, index) => {
+          star = star
           const value = index + 1;
   
           return (
