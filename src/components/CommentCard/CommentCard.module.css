@@ -1,0 +1,22 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 16px 4px rgba(34, 60, 80, 0.53);
+    padding: 20px;
+    width: 600px;
+    word-break: break-all;
+}
+
+@media(max-width: 700px){
+    .container{
+        width: 300px;
+    }
+}
+
+@media(max-width: 430px){
+    .container{
+        width: calc(100% - 40px);
+    }
+}

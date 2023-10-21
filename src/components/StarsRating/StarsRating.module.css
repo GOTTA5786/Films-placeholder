@@ -1,0 +1,18 @@
+.rating{
+    display: flex;
+    align-items: center;
+}
+.rating > p {
+    font-size: 40px;
+}
+
+@media(max-width: 1270px){
+    .rating > p{
+        font-size: 28px;
+    }
+}
+@media(max-width: 430px){
+    .rating > p{
+        font-size: 21px;
+    }
+}

@@ -1,0 +1,14 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.container > input{
+    border: solid gray 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 25px;
+}
+
+@media (max-width: 980px){
+}
